@@ -7,14 +7,15 @@ This is a web application for uploading, editing, and viewing PDF files. It cons
 The frontend code is located in the `frontend` directory. It includes two main components:
 
 ### `main.js`
-
+![Main Page](https://i.imgur.com/EeClENI.png)
 - This component allows users to upload PDF files.
 - It uses React and Axios for making HTTP requests.
 - The selected file is sent to the backend for processing.
 - A loading indicator is displayed while the upload is in progress.
 
 ### `page.js`
-
+![Main Page](https://i.imgur.com/DMzCndb.png)
+![Main Page](https://i.imgur.com/SFWLr5D.png)
 - This component displays the uploaded PDF pages.
 - Users can select pages for editing and then download the modified PDF.
 - It uses React Router for navigation and Axios for making requests to the backend.
@@ -23,6 +24,8 @@ The frontend code is located in the `frontend` directory. It includes two main c
 ## Backend
 
 The backend code is located in the `backend` directory. It includes an Express.js application and handles the following functionality:
+It is deployed on render so the backend shuts down while inactive.
+backend api : https://pdf-editor-backend-kaj5.onrender.com/
 
 ### Uploading PDF Files
 
@@ -39,6 +42,7 @@ The backend code is located in the `backend` directory. It includes an Express.j
 
 - Users can select specific pages for editing and then download the modified PDF.
 - The backend receives the selected pages, processes the PDF, and sends the modified PDF back to the frontend.
+- The result wil be produced in the order the PDF pages were selected.
 
 ## Prerequisites
 

@@ -2,11 +2,12 @@
 
 This is a web application for uploading, editing, and viewing PDF files. It consists of both frontend and backend components. The frontend is built using React, and the backend is implemented with Node.js using Express. This README will provide an overview of the project's structure and functionality.
 
+[![Video Title](https://img.youtube.com/vi/dOXH4g5Qkis/0.jpg)](https://www.youtube.com/watch?v=dOXH4g5Qkis)
+
 ## Frontend
 
 The frontend code is located in the `frontend` directory. It includes two main components:
 
-[![Video Title](https://img.youtube.com/vi/dOXH4g5Qkis/0.jpg)](https://www.youtube.com/watch?v=dOXH4g5Qkis)
 ### `main.js`
 ![Main Page](https://i.imgur.com/EeClENI.png)
 - This component allows users to upload PDF files.

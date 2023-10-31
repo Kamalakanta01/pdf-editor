@@ -6,6 +6,7 @@ This is a web application for uploading, editing, and viewing PDF files. It cons
 
 The frontend code is located in the `frontend` directory. It includes two main components:
 
+[![Video Title](https://img.youtube.com/vi/dOXH4g5Qkis/0.jpg)](https://www.youtube.com/watch?v=dOXH4g5Qkis)
 ### `main.js`
 ![Main Page](https://i.imgur.com/EeClENI.png)
 - This component allows users to upload PDF files.
